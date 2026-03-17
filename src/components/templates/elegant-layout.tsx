@@ -19,8 +19,8 @@ const ElegantLayout: React.FC<TemplateProps & { variant: number }> = ({ data, la
         <div className="flex-1 flex flex-col p-12 relative z-10">
           <div className="flex flex-col items-center text-center mb-10">
 
-            {data.godPhoto && <Image
-              src={data.godPhoto}
+            {data?.godPhoto && <Image
+              src={data?.godPhoto}
               width={64}
               height={64}
               className="w-32 h-32 mb-4 object-contain filter drop-shadow-md"

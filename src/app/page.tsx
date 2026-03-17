@@ -55,9 +55,9 @@ export default function HomePage() {
       {/* Featured Blog Posts */}
       <FeaturedBlog />
 
-      {/* <TemplateCarousel lang={'en'} /> */}
+      <TemplateCarousel lang={'en'} />
 
-      {/* <Testimonials lang={'en'} /> */}
+      <Testimonials lang={'en'} />
 
       {/* FAQ Section */}
       <FAQ />
